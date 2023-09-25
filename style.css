@@ -1,4 +1,4 @@
-.navbar-title {
+.navbar-title text-wrap {
     font-size: 0;  /* Make text size 0 to hide it */
     position: relative; /* To position the pseudo-element relative to this */
 }
