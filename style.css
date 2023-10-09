@@ -1,14 +1,3 @@
-.navbar-title text-wrap {
-    font-size: 0;  /* Make text size 0 to hide it */
-    position: relative; /* To position the pseudo-element relative to this */
-}
-.navbar-title::before {
-    content: url('path_to_your_image.jpg');
-    display: inline-block;
-    height: 40px;
-    width: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Center the image within the navbar-title */
+img[src="assets/logo.png"] {
+    display: none;
 }
